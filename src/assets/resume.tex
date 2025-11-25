@@ -1,0 +1,290 @@
+"""%%%%
+% MTecknology's Resume
+%%%%
+% Author: Michael Lustfield
+% License: CC-BY-4
+% - https://creativecommons.org/licenses/by/4.0/legalcode.txt
+%%%%
+
+\documentclass[letterpaper,10pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%
+%% BEGIN_FILE: mteck.sty
+%% NOTE: Everything between here and END_FILE can
+%% be relocated to "mteck.sty" and then included with:
+%\usepackage{mteck}
+
+% Dependencies
+% NOTE: Some packages (lastpage, hyperref) require second build!
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\usepackage{bookmark}
+\usepackage{lastpage}
+
+% Sans-Serif
+%\usepackage[sfdefault]{FiraSans}
+%\usepackage[sfdefault]{roboto}
+%\usepackage[sfdefault]{noto-sans}
+%\usepackage[default]{sourcesanspro}
+
+% Serif
+\usepackage{CormorantGaramond}
+\usepackage{charter}
+
+% Colors
+% Use with \color{Name}
+% Can wrap entire heading with {\color{accent} [...] }
+\usepackage{xcolor}
+\definecolor{accentTitle}{HTML}{0e6e55}
+\definecolor{accentText}{HTML}{0e6e55}
+\definecolor{accentLine}{HTML}{a16f0b}
+
+% Misc. Options
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\urlstyle{same}
+
+% Adjust Margins
+\addtolength{\oddsidemargin}{-0.7in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-0.7in}
+\addtolength{\textheight}{1.4in}
+
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\setlength{\tabcolsep}{0pt}
+\setlength{\footskip}{3.7pt}
+\raggedbottom
+\raggedright
+
+% ATS Readability
+\input{glyphtounicode}
+\pdfgentounicode=1
+
+%-----------------%
+% Custom Commands %
+%-----------------%
+
+% Centered title along with subtitle between HR
+% Usage: \documentTitle{Name}{Details}
+\newcommand{\documentTitle}[2]{
+  \begin{center}
+    {\Huge\color{accentTitle} #1}
+    \vspace{10pt}
+    {\color{accentLine} \hrule}
+    \vspace{2pt}
+    %{\footnotesize\color{accentTitle} #2}
+    \footnotesize{#2}
+    \vspace{2pt}
+    {\color{accentLine} \hrule}
+  \end{center}
+}
+
+% Create a footer with correct padding
+% Usage: \documentFooter{\thepage of X}
+\newcommand{\documentFooter}[1]{
+  \setlength{\footskip}{10.25pt}
+  \fancyfoot[C]{\footnotesize #1}
+}
+
+% Simple wrapper to set up page numbering
+% Usage: \numberedPages
+% WARNING: Must run pdflatex twice!
+\newcommand{\numberedPages}{
+  \documentFooter{\thepage/\pageref{LastPage}}
+}
+
+% Section heading with horizontal rule
+% Usage: \section{Title}
+\titleformat{\section}{
+  \vspace{-15pt}
+  \color{accentText}
+  \raggedright\large\bfseries
+}{}{0em}{}[\color{accentLine}\titlerule]
+
+% Section heading with separator and content on same line
+% Usage: \tinysection{Title}
+\newcommand{\tinysection}[1]{
+  \phantomsection
+  \addcontentsline{toc}{section}{#1}
+  {\large{\bfseries\color{accentText}#1} {\color{accentLine} |}}
+}
+
+% Indented line with arguments left/right aligned in document
+% Usage: \heading{Left}{Right}
+\newcommand{\heading}[2]{
+  \hspace{1pt}#1\hfill#2\\
+}
+
+% Adds \textbf to \heading
+\newcommand{\headingBf}[2]{
+  \heading{\textbf{#1}}{\textbf{#2}}
+}
+
+% Adds \textit to \heading
+\newcommand{\headingIt}[2]{
+  \heading{\textit{#1}}{\textit{#2}}
+}
+
+% Template for itemized lists
+% Usage: \begin{resume_list} [items] \end{resume_list}
+\newenvironment{resume_list}{
+  \vspace{-7pt}
+  \begin{itemize}[itemsep=-1.5px, parsep=1pt, leftmargin=10pt]
+}{
+  \end{itemize}
+  %\vspace{-2pt}
+}
+
+% Formats an item to use as an itemized title
+% Usage: \itemTitle{Title}
+\newcommand{\itemTitle}[1]{
+  \item[] \underline{#1}\vspace{4pt}
+}
+
+% Bullets used in itemized lists
+\renewcommand\labelitemi{--}
+
+%% END_FILE: mteck.sty
+%%%%%%%%%%%%%%%%%%%%%%
+
+
+%===================%
+% John Doe's Resume %
+%===================%
+
+%\numberedPages % NOTE: lastpage requires a second build
+%\documentFooter{\thepage of 2} % Does similar without using lastpage
+\begin{document}
+
+  %---------%
+  % Heading %
+  %---------%
+
+  \documentTitle{Shravani Chekuri}{
+    % Web Version
+    %\raisebox{-0.05\height} \faPhone\ [redacted - web copy] ~
+    %\raisebox{-0.15\height} \faEnvelope\ [redacted - web copy] ~
+    %%
+    \vspace{-0.8em} % Adjust this value to tighten spacing
+\begin{center}
+\begin{minipage}{0.8\textwidth}
+\centering
+\href{tel:+14052691066}{\raisebox{-0.05\height}{\faPhone} +1 (405) 269-2419} \, -- \,
+\faEnvelope\ \href{mailto:shravanichekuri18@gmail.com}{shravanichekuri18@gmail.com} \, -- \,
+\faLinkedinSquare\ \href{https://www.linkedin.com/in/shravanichekuri/}{linkedin.com/in/shravanichekuri/}
+\end{minipage}
+\end{center}
+\vspace{-0.5em} % Optional, also reduces space below
+
+
+
+  }
+
+  %---------%
+  % Summary %
+  %---------%
+
+
+
+  %--------%
+  % Skills %
+  %--------%
+  \section{Summary}{}
+      \item Software Engineer with 4 years of experience creating responsive, high-performance web applications using React.js, JavaScript, HTML5, and CSS3. Skilled in building user-centric interfaces, integrating APIs, and collaborating in Agile teams to deliver scalable, visually engaging solutions that enhance user experience and business impact.
+
+  \section{Skills}
+
+ \begin{singlecol} 
+ \begin{itemize}[itemsep=-0.5px, parsep=1pt, leftmargin=150pt] 
+ \item[\textbf{Programming Languages:}] Java, Python, SQL, HTML, CSS, JavaScript, Type Script
+ \item[\textbf{Frontend Technologies:}] React.js, React Hooks, React Native, AngularJS \item[\textbf{UI Frameworks \& Libraries:}] Redux, Bootstrap, Material-UI, jQuery, SASS 
+ \item[\textbf{Design \& Prototyping:}] UI/UX, CMS, Figma, Adobe Illustrator, WCAG
+ \item[\textbf{Version Control \& Tools:}] Git, GitHub, Copilot, GitLab, Bitbucket, Visual Studio Code, NPM 
+ \item[\textbf{Testing \& Debugging:}] Jest, Mocha, Selenium \item[\textbf{Development Methodologies:}] Agile, Scrum
+ \item [\textbf{Data Visualization \& Analytics:}] Tableau 
+ \item[\textbf{Databases:}] MySQL, MongoDB, PostgreSQL 
+ \item[\textbf{Cloud \& DevOps:}] Azure, AWS, GCP (basics), Jenkins, Docker, CI/CD, Kubernetes
+ \item[\textbf{AI \& ML:}] Gen AI,AI Agents, NLP, CNN, Deep Learning, RAG, Prompting
+  
+ \end{itemize} 
+ \end{singlecol}
+      
+
+\section{ Work Experience}
+
+  \headingBf{Oklahoma State University, Stillwater, Ok}{ Oct 2023 -- Aug 2025}
+  \headingIt{Research Assistant | FrontEnd Developer}{}
+  \begin{resume_list}
+    \item Developed a \textbf{responsive, mobile-friendly React Native application} that allowed farmers and researchers to seamlessly record and analyze animal and forage data, improving on-field data entry efficiency by 40\%.
+    \vspace{1.5pt}
+    \item Built \textbf{RESTful APIs} with Node.js and Express for farm activity management, increasing data processing speed by 50\%.
+    \vspace{1.5pt}
+    \item Integrated JWT-based \textbf{Role-based access control (RBAC)} to ensure secure access for farmers, managers, and researchers, strengthening data security by 60\%.
+    \vspace{1.5pt}
+    \item Created dashboards with \textbf{Tableau} to visualize growth and forage metrics, boosting analytical decision-making by 30\%.
+    \vspace{1.5pt}
+    \item Incorporated \textbf{Machine Learning models} to predict animal growth and forage yield trends, increasing forecasting accuracy by 25\% and supporting data-driven agricultural management.
+    \end{resume_list}
+\headingBf{Hewlett Packard Enterprise, Bangalore, India}{ Jan 2022 -- Jul 2023}
+  \headingIt{Software Engineer}{}
+  \begin{resume_list}
+    
+    \item Developed the \textbf{HPE GreenLake hybrid cloud platform}, enabling enterprises to manage workloads across on-premises, edge, and cloud, improving \textbf{resource visibility by 45\%.}
+    \vspace{1.5pt}
+    \item Designed \textbf{responsive front-end dashboards} using React.js, Grommet, and HPE Design System, enhancing \textbf{user engagement by 40\%.}
+    \vspace{1.5pt}
+    \item Collaborated with design teams to translate UI mockups into \textbf{CMS} ready web components, ensuring brand consistency.
+    \vspace{1.5pt}
+    \item Built \textbf{RESTful backend services} with Java and Node.js,improving \textbf{API performance and scalability by 50\%.}
+    \vspace{1.5pt}
+    \item Integrated Microsoft Azure services, reducing \textbf{manual provisioning time by 60\%} and strengthening identity management.
+    \vspace{1.5pt}
+    \item Implemented OAuth2, JWT, and RBAC security, improving data protection and compliance by 70\%.
+    \vspace{1.5pt}
+    \item Automated deployments through \textbf{CI/CD pipelines} using Jenkins, Docker, and Kubernetes, cutting \textbf{release time by 65\%} and improving reliability.
+  \end{resume_list}
+
+
+  %------------%
+  % Experience %
+  %------------%
+
+  
+
+  %-----------%
+  % Education %
+  %-----------%
+
+
+  %----------------------------%
+  % Extracurricular Activities %
+  %----------------------------%
+
+
+  \section{Projects}
+
+  \headingBf{Hybrid CNN Models for Automated Waste Classification}{}
+  \begin{resume_list}
+    \item Developed a \textbf{hybrid CNN ensemble model} (Inception–ResNet-v2, EfficientNetB3, DenseNet201) to classify waste into nine categories, improving model generalization through transfer learning and advanced data augmentation, and optimized training pipelines to reduce computation time by 40\%, enabling scalable real-time classification.
+     \end{resume_list}
+\headingBf{Hospital Management Platform Using Java Spring Boot and React.js}{}
+  \begin{resume_list}
+    \item Developed a full-stack \textbf{Hospital Management Platform} using Java Spring Boot, React.js and implemented RBAC authentication with JWT, building analytics dashboards that improved operational efficiency by 45\%, enhanced patient–doctor coordination, and enabled 30\% faster data-driven reporting.
+  \end{resume_list}
+
+  \section{Education}
+  \headingBf{Oklahoma State University, Stillwater, OK, USA}{ Aug 2023 -- Aug 2025}{} % Note: Adding year(s) exposes an implied age
+  \headingIt{Master of Science in Computer Science}{}
+  \headingIt{\textbf{Core}: DSA; OOPs Concepts; Database Systems; Web Development; Cloud Computing; Distributed Systems; AI \& ML}{}
+  \headingIt{\textbf{Certifications}:Azure Fundamentals (AZ 900), Tableau Desktop Specialist, Generative AI}{}
+ 
+\end{document}

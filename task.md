@@ -1,0 +1,223 @@
+# Task: Create Personal Portfolio Website
+
+- [x] Project Setup <!-- id: 0 -->
+    - [x] Initialize Vite React project <!-- id: 1 -->
+    - [x] Install dependencies (react-router-dom, framer-motion, etc.) <!-- id: 2 -->
+    - [x] Clean up default boilerplate <!-- id: 3 -->
+- [ ] Global Styles & Layout <!-- id: 4 -->
+    - [x] Configure global CSS (Black background, White text, Font) <!-- id: 5 -->
+    - [x] Create Layout component with Navigation <!-- id: 6 -->
+    - [x] Implement Page Transitions <!-- id: 7 -->
+- [x] Home Page Implementation <!-- id: 8 -->
+    - [x] Create Home component <!-- id: 9 -->
+    - [x] Add Hero section (Image + Overview) <!-- id: 10 -->
+- [x] Projects Page Implementation <!-- id: 11 -->
+    - [x] Create Projects component <!-- id: 12 -->
+    - [x] Create ProjectCard component with expand/collapse logic <!-- id: 13 -->
+    - [x] Add project data <!-- id: 14 -->
+- [x] About Me Page Implementation <!-- id: 15 -->
+    - [x] Create About component <!-- id: 16 -->
+    - [x] Add "My Journey" section <!-- id: 17 -->
+    - [x] Add "Experiences" section <!-- id: 18 -->
+    - [x] Add "Skills" section <!-- id: 19 -->
+# Task: Create Personal Portfolio Website
+
+- [x] Project Setup <!-- id: 0 -->
+    - [x] Initialize Vite React project <!-- id: 1 -->
+    - [x] Install dependencies (react-router-dom, framer-motion, etc.) <!-- id: 2 -->
+    - [x] Clean up default boilerplate <!-- id: 3 -->
+- [ ] Global Styles & Layout <!-- id: 4 -->
+    - [x] Configure global CSS (Black background, White text, Font) <!-- id: 5 -->
+    - [x] Create Layout component with Navigation <!-- id: 6 -->
+    - [x] Implement Page Transitions <!-- id: 7 -->
+- [x] Home Page Implementation <!-- id: 8 -->
+    - [x] Create Home component <!-- id: 9 -->
+    - [x] Add Hero section (Image + Overview) <!-- id: 10 -->
+- [x] Projects Page Implementation <!-- id: 11 -->
+    - [x] Create Projects component <!-- id: 12 -->
+    - [x] Create ProjectCard component with expand/collapse logic <!-- id: 13 -->
+    - [x] Add project data <!-- id: 14 -->
+- [x] About Me Page Implementation <!-- id: 15 -->
+    - [x] Create About component <!-- id: 16 -->
+    - [x] Add "My Journey" section <!-- id: 17 -->
+    - [x] Add "Experiences" section <!-- id: 18 -->
+    - [x] Add "Skills" section <!-- id: 19 -->
+    - [x] Add "Contact Details" section <!-- id: 20 -->
+- [x] Refactor to Single Page Layout <!-- id: 25 -->
+    - [x] Process and update profile image <!-- id: 26 -->
+    - [x] Update Navbar for smooth scrolling <!-- id: 27 -->
+# Task: Create Personal Portfolio Website
+
+- [x] Project Setup <!-- id: 0 -->
+    - [x] Initialize Vite React project <!-- id: 1 -->
+    - [x] Install dependencies (react-router-dom, framer-motion, etc.) <!-- id: 2 -->
+    - [x] Clean up default boilerplate <!-- id: 3 -->
+- [ ] Global Styles & Layout <!-- id: 4 -->
+    - [x] Configure global CSS (Black background, White text, Font) <!-- id: 5 -->
+    - [x] Create Layout component with Navigation <!-- id: 6 -->
+    - [x] Implement Page Transitions <!-- id: 7 -->
+- [x] Home Page Implementation <!-- id: 8 -->
+    - [x] Create Home component <!-- id: 9 -->
+    - [x] Add Hero section (Image + Overview) <!-- id: 10 -->
+- [x] Projects Page Implementation <!-- id: 11 -->
+    - [x] Create Projects component <!-- id: 12 -->
+    - [x] Create ProjectCard component with expand/collapse logic <!-- id: 13 -->
+    - [x] Add project data <!-- id: 14 -->
+- [x] About Me Page Implementation <!-- id: 15 -->
+    - [x] Create About component <!-- id: 16 -->
+    - [x] Add "My Journey" section <!-- id: 17 -->
+    - [x] Add "Experiences" section <!-- id: 18 -->
+    - [x] Add "Skills" section <!-- id: 19 -->
+# Task: Create Personal Portfolio Website
+
+- [x] Project Setup <!-- id: 0 -->
+    - [x] Initialize Vite React project <!-- id: 1 -->
+    - [x] Install dependencies (react-router-dom, framer-motion, etc.) <!-- id: 2 -->
+    - [x] Clean up default boilerplate <!-- id: 3 -->
+- [ ] Global Styles & Layout <!-- id: 4 -->
+    - [x] Configure global CSS (Black background, White text, Font) <!-- id: 5 -->
+    - [x] Create Layout component with Navigation <!-- id: 6 -->
+    - [x] Implement Page Transitions <!-- id: 7 -->
+- [x] Home Page Implementation <!-- id: 8 -->
+    - [x] Create Home component <!-- id: 9 -->
+    - [x] Add Hero section (Image + Overview) <!-- id: 10 -->
+- [x] Projects Page Implementation <!-- id: 11 -->
+    - [x] Create Projects component <!-- id: 12 -->
+    - [x] Create ProjectCard component with expand/collapse logic <!-- id: 13 -->
+    - [x] Add project data <!-- id: 14 -->
+- [x] About Me Page Implementation <!-- id: 15 -->
+    - [x] Create About component <!-- id: 16 -->
+    - [x] Add "My Journey" section <!-- id: 17 -->
+    - [x] Add "Experiences" section <!-- id: 18 -->
+    - [x] Add "Skills" section <!-- id: 19 -->
+    - [x] Add "Contact Details" section <!-- id: 20 -->
+- [x] Refactor to Single Page Layout <!-- id: 25 -->
+    - [x] Process and update profile image <!-- id: 26 -->
+    - [x] Update Navbar for smooth scrolling <!-- id: 27 -->
+# Task: Create Personal Portfolio Website
+
+- [x] Project Setup <!-- id: 0 -->
+    - [x] Initialize Vite React project <!-- id: 1 -->
+    - [x] Install dependencies (react-router-dom, framer-motion, etc.) <!-- id: 2 -->
+    - [x] Clean up default boilerplate <!-- id: 3 -->
+- [ ] Global Styles & Layout <!-- id: 4 -->
+    - [x] Configure global CSS (Black background, White text, Font) <!-- id: 5 -->
+    - [x] Create Layout component with Navigation <!-- id: 6 -->
+    - [x] Implement Page Transitions <!-- id: 7 -->
+- [x] Home Page Implementation <!-- id: 8 -->
+    - [x] Create Home component <!-- id: 9 -->
+    - [x] Add Hero section (Image + Overview) <!-- id: 10 -->
+- [x] Projects Page Implementation <!-- id: 11 -->
+    - [x] Create Projects component <!-- id: 12 -->
+    - [x] Create ProjectCard component with expand/collapse logic <!-- id: 13 -->
+    - [x] Add project data <!-- id: 14 -->
+- [x] About Me Page Implementation <!-- id: 15 -->
+    - [x] Create About component <!-- id: 16 -->
+    - [x] Add "My Journey" section <!-- id: 17 -->
+    - [x] Add "Experiences" section <!-- id: 18 -->
+    - [x] Add "Skills" section <!-- id: 19 -->
+# Task: Create Personal Portfolio Website
+
+- [x] Project Setup <!-- id: 0 -->
+    - [x] Initialize Vite React project <!-- id: 1 -->
+    - [x] Install dependencies (react-router-dom, framer-motion, etc.) <!-- id: 2 -->
+    - [x] Clean up default boilerplate <!-- id: 3 -->
+- [ ] Global Styles & Layout <!-- id: 4 -->
+    - [x] Configure global CSS (Black background, White text, Font) <!-- id: 5 -->
+    - [x] Create Layout component with Navigation <!-- id: 6 -->
+    - [x] Implement Page Transitions <!-- id: 7 -->
+- [x] Home Page Implementation <!-- id: 8 -->
+    - [x] Create Home component <!-- id: 9 -->
+    - [x] Add Hero section (Image + Overview) <!-- id: 10 -->
+- [x] Projects Page Implementation <!-- id: 11 -->
+    - [x] Create Projects component <!-- id: 12 -->
+    - [x] Create ProjectCard component with expand/collapse logic <!-- id: 13 -->
+    - [x] Add project data <!-- id: 14 -->
+- [x] About Me Page Implementation <!-- id: 15 -->
+    - [x] Create About component <!-- id: 16 -->
+    - [x] Add "My Journey" section <!-- id: 17 -->
+    - [x] Add "Experiences" section <!-- id: 18 -->
+    - [x] Add "Skills" section <!-- id: 19 -->
+    - [x] Add "Contact Details" section <!-- id: 20 -->
+- [x] Refactor to Single Page Layout <!-- id: 25 -->
+    - [x] Process and update profile image <!-- id: 26 -->
+    - [x] Update Navbar for smooth scrolling <!-- id: 27 -->
+# Task: Create Personal Portfolio Website
+
+- [x] Project Setup <!-- id: 0 -->
+    - [x] Initialize Vite React project <!-- id: 1 -->
+    - [x] Install dependencies (react-router-dom, framer-motion, etc.) <!-- id: 2 -->
+    - [x] Clean up default boilerplate <!-- id: 3 -->
+- [ ] Global Styles & Layout <!-- id: 4 -->
+    - [x] Configure global CSS (Black background, White text, Font) <!-- id: 5 -->
+    - [x] Create Layout component with Navigation <!-- id: 6 -->
+    - [x] Implement Page Transitions <!-- id: 7 -->
+- [x] Home Page Implementation <!-- id: 8 -->
+    - [x] Create Home component <!-- id: 9 -->
+    - [x] Add Hero section (Image + Overview) <!-- id: 10 -->
+- [x] Projects Page Implementation <!-- id: 11 -->
+    - [x] Create Projects component <!-- id: 12 -->
+    - [x] Create ProjectCard component with expand/collapse logic <!-- id: 13 -->
+    - [x] Add project data <!-- id: 14 -->
+- [x] About Me Page Implementation <!-- id: 15 -->
+    - [x] Create About component <!-- id: 16 -->
+    - [x] Add "My Journey" section <!-- id: 17 -->
+    - [x] Add "Experiences" section <!-- id: 18 -->
+    - [x] Add "Skills" section <!-- id: 19 -->
+# Task: Create Personal Portfolio Website
+
+- [x] Project Setup <!-- id: 0 -->
+    - [x] Initialize Vite React project <!-- id: 1 -->
+    - [x] Install dependencies (react-router-dom, framer-motion, etc.) <!-- id: 2 -->
+    - [x] Clean up default boilerplate <!-- id: 3 -->
+- [ ] Global Styles & Layout <!-- id: 4 -->
+    - [x] Configure global CSS (Black background, White text, Font) <!-- id: 5 -->
+    - [x] Create Layout component with Navigation <!-- id: 6 -->
+    - [x] Implement Page Transitions <!-- id: 7 -->
+- [x] Home Page Implementation <!-- id: 8 -->
+    - [x] Create Home component <!-- id: 9 -->
+    - [x] Add Hero section (Image + Overview) <!-- id: 10 -->
+- [x] Projects Page Implementation <!-- id: 11 -->
+    - [x] Create Projects component <!-- id: 12 -->
+    - [x] Create ProjectCard component with expand/collapse logic <!-- id: 13 -->
+    - [x] Add project data <!-- id: 14 -->
+- [x] About Me Page Implementation <!-- id: 15 -->
+    - [x] Create About component <!-- id: 16 -->
+    - [x] Add "My Journey" section <!-- id: 17 -->
+    - [x] Add "Experiences" section <!-- id: 18 -->
+    - [x] Add "Skills" section <!-- id: 19 -->
+    - [x] Add "Contact Details" section <!-- id: 20 -->
+- [x] Refactor to Single Page Layout <!-- id: 25 -->
+    - [x] Process and update profile image <!-- id: 26 -->
+    - [x] Update Navbar for smooth scrolling <!-- id: 27 -->
+    - [x] Merge pages into Home component <!-- id: 28 -->
+    - [x] Update App.jsx routing <!-- id: 29 -->
+- [x] Content & UI Updates <!-- id: 31 -->
+    - [x] Update project images <!-- id: 32 -->
+    - [x] Move "Show Less" button <!-- id: 33 -->
+    - [x] Update About text <!-- id: 34 -->
+- [x] Content & UI Polish <!-- id: 35 -->
+    - [x] Update Navbar logo text <!-- id: 36 -->
+    - [x] Update Home introduction text <!-- id: 37 -->
+    - [x] Update Experience title <!-- id: 38 -->
+    - [x] Refactor Contact section <!-- id: 39 -->
+- [x] Add Resume Button <!-- id: 40 -->
+    - [x] Create placeholder resume.pdf <!-- id: 41 -->
+    - [x] Add Resume button to Home.jsx <!-- id: 42 -->
+    - [x] Add Resume Button <!-- id: 40 -->
+    - [x] Create placeholder resume.pdf <!-- id: 41 -->
+    - [x] Add Resume button to Home.jsx <!-- id: 42 -->
+    - [x] Style Resume button in Home.css <!-- id: 43 -->
+- [x] Implement Resume Modal <!-- id: 44 -->
+    - [x] Create ResumeModal component <!-- id: 45 -->
+    - [x] Style ResumeModal <!-- id: 46 -->
+    - [x] Integrate Modal into Home.jsx <!-- id: 47 -->
+- [ ] Deployment Preparation <!-- id: 48 -->
+    - [ ] Run production build <!-- id: 49 -->
+    - [ ] Initialize Git repository <!-- id: 50 -->
+    - [ ] Create Deployment Guide <!-- id: 51 -->
+- [ ] Verification & Polish <!-- id: 21 -->
+    - [x] Verify single page navigation <!-- id: 30 -->
+    - [x] Verify responsive design <!-- id: 22 -->
+    - [x] Check all links and interactions <!-- id: 23 -->
+    - [x] Final UI polish <!-- id: 24 -->
