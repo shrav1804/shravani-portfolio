@@ -387,7 +387,6 @@ const Experience = () => {
       role: 'Software Engineer',
       company: 'Mentor A Promise',
       period: 'Nov 2025 – Present',
-      icon: '🚀',
       bullets: [
         "Led the redesign of the organization's website using React and modern frontend practices.",
         'Translated high-fidelity Figma mockups into responsive, accessible UI components.',
@@ -398,9 +397,9 @@ const Experience = () => {
     {
       id: 2,
       role: 'Software Engineer',
-      company: 'Evolent Health',
+      company: 'Oklahoma State University',
       period: 'Sep 2023 – Aug 2025',
-      icon: '⚙️',
+      
       bullets: [
         'Designed and maintained responsive web interfaces supporting thousands of users.',
         'Built reusable UI templates and improved navigation architecture.',
@@ -411,9 +410,8 @@ const Experience = () => {
     {
       id: 3,
       role: 'Software Engineer',
-      company: 'Wipro Technologies',
+      company: 'Hewlett Packard Enterprise',
       period: 'Jan 2022 – Jul 2023',
-      icon: '💻',
       bullets: [
         'Developed responsive UI components aligned with enterprise design systems.',
         'Optimized application performance through improved asset delivery pipelines.',
