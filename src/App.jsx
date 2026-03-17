@@ -438,7 +438,7 @@ const Experience = () => {
       <motion.div variants={containerVariants} initial="hidden" whileInView="visible" viewport={{ once: true, margin: '-100px' }} className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 xl:px-10">
 
         <motion.div variants={itemVariants} className="text-center mb-16">
-          <h2 className="section-title">Experience Timeline</h2>
+          <h2 className="section-title">Experience</h2>
           <div className="w-24 h-1 bg-gradient-to-r from-accent-blue to-accent-cyan mx-auto mt-4" />
         </motion.div>
 
