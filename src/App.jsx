@@ -189,7 +189,8 @@ const Hero = () => {
           <motion.a href="https://linkedin.com/in/shravanichekuri" target="_blank" rel="noopener noreferrer" whileHover={{ scale: 1.2, y: -5 }} className="w-12 h-12 rounded-full glass-effect flex items-center justify-center text-xl hover:text-accent-blue transition-colors">
             <FaLinkedin />
           </motion.a>
-          <motion.a href="https://github.com" target="_blank" rel="noopener noreferrer" whileHover={{ scale: 1.2, y: -5 }} className="w-12 h-12 rounded-full glass-effect flex items-center justify-center text-xl hover:text-accent-blue transition-colors">
+          {/* ✅ UPDATED: GitHub link */}
+          <motion.a href="https://github.com/shrav1804" target="_blank" rel="noopener noreferrer" whileHover={{ scale: 1.2, y: -5 }} className="w-12 h-12 rounded-full glass-effect flex items-center justify-center text-xl hover:text-accent-blue transition-colors">
             <FaGithub />
           </motion.a>
         </motion.div>
@@ -251,10 +252,10 @@ const About = () => {
             </motion.div>
           </motion.div>
 
-          {/* Profile photo */}
-          <motion.div variants={itemVariants} className="relative">
-            <div className="glow-border">
-              <div className="aspect-square rounded-xl overflow-hidden">
+          {/* ✅ UPDATED: Profile photo — small circle */}
+          <motion.div variants={itemVariants} className="relative flex justify-center">
+            <div className="glow-border rounded-full p-1">
+              <div className="w-56 h-56 rounded-full overflow-hidden">
                 <img
                   src={profilePhoto}
                   alt="Shravani Chekuri"
@@ -262,7 +263,7 @@ const About = () => {
                 />
               </div>
             </div>
-            <div className="absolute inset-0 bg-gradient-glow opacity-30 rounded-xl pointer-events-none" />
+            <div className="absolute inset-0 bg-gradient-glow opacity-30 rounded-full pointer-events-none" />
           </motion.div>
         </div>
       </motion.div>
@@ -399,7 +400,6 @@ const Experience = () => {
       role: 'Software Engineer',
       company: 'Oklahoma State University',
       period: 'Sep 2023 – Aug 2025',
-      
       bullets: [
         'Designed and maintained responsive web interfaces supporting thousands of users.',
         'Built reusable UI templates and improved navigation architecture.',
@@ -663,10 +663,10 @@ const Connect = () => {
   const handleSubmit = (e) => {
   e.preventDefault();
   emailjs.send(
-    'YOUR_SERVICE_ID',    // ← from EmailJS dashboard
-    'YOUR_TEMPLATE_ID',   // ← from EmailJS dashboard
+    'YOUR_SERVICE_ID',
+    'YOUR_TEMPLATE_ID',
     formData,
-    'YOUR_PUBLIC_KEY'     // ← from EmailJS dashboard
+    'YOUR_PUBLIC_KEY'
   ).then(() => {
     setIsSubmitted(true);
     setTimeout(() => setIsSubmitted(false), 3000);
@@ -727,13 +727,14 @@ const Connect = () => {
               </div>
             </motion.a>
 
-            <motion.a variants={itemVariants} href="https://github.com" target="_blank" rel="noopener noreferrer" whileHover={{ x: 10 }} className="glass-card group flex items-center gap-4 cursor-pointer">
+            {/* ✅ UPDATED: GitHub link in Connect section */}
+            <motion.a variants={itemVariants} href="https://github.com/shrav1804" target="_blank" rel="noopener noreferrer" whileHover={{ x: 10 }} className="glass-card group flex items-center gap-4 cursor-pointer">
               <div className="w-12 h-12 rounded-full bg-accent-blue bg-opacity-20 flex items-center justify-center text-accent-blue text-xl group-hover:bg-opacity-30 transition-all">
                 <FiGithub />
               </div>
               <div>
                 <p className="text-sm text-gray-400">GitHub</p>
-                <p className="text-white font-semibold">github.com</p>
+                <p className="text-white font-semibold">github.com/shrav1804</p>
               </div>
             </motion.a>
           </motion.div>
@@ -815,9 +816,10 @@ const Footer = () => {
             <div>
               <h4 className="text-sm font-semibold text-white mb-3">Social</h4>
               <ul className="space-y-2">
-                {['LinkedIn', 'GitHub', 'Email'].map((link) => (
-                  <li key={link}><a href="#" className="text-gray-400 hover:text-accent-blue transition-colors text-sm">{link}</a></li>
-                ))}
+                {/* ✅ UPDATED: GitHub link in Footer */}
+                <li><a href="https://linkedin.com/in/shravanichekuri" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-accent-blue transition-colors text-sm">LinkedIn</a></li>
+                <li><a href="https://github.com/shrav1804" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-accent-blue transition-colors text-sm">GitHub</a></li>
+                <li><a href="mailto:shravanichekuri18@gmail.com" className="text-gray-400 hover:text-accent-blue transition-colors text-sm">Email</a></li>
               </ul>
             </div>
           </motion.div>
