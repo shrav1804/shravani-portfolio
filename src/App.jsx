@@ -5,10 +5,10 @@ import { FaLinkedin, FaGithub, FaReact, FaJs, FaHtml5, FaCss3Alt, FaGitAlt, FaDa
 import { SiNextdotjs, SiBootstrap, SiWordpress, SiDrupal, SiFigma, SiMysql, SiPostgresql, SiMongodb, SiGitlab } from 'react-icons/si';
 import emailjs from '@emailjs/browser';
 
-import profilePhoto  from './assets/profile.jpg';
-import project1Img   from './assets/Screenshot 2026-03-16 185645.png';
-import project2Img   from './assets/OSU.jpg';
-import project3Img   from './assets/1_hVk451hshaIQgyI3dBtofQ.webp';
+import profilePhoto from './assets/profile.jpg';
+import project1Img from './assets/Screenshot 2026-03-16 185645.png';
+import project2Img from './assets/OSU.jpg';
+import project3Img from './assets/1_hVk451hshaIQgyI3dBtofQ.webp';
 
 
 
@@ -19,12 +19,12 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const navLinks = [
-    { label: 'About',          id: 'about'          },
-    { label: 'Experience',     id: 'experience'     },
-    { label: 'Projects',       id: 'projects'       },
-    { label: 'Skills',         id: 'skills'         },
+    { label: 'About', id: 'about' },
+    { label: 'Experience', id: 'experience' },
+    { label: 'Projects', id: 'projects' },
+    { label: 'Skills', id: 'skills' },
     { label: 'Certifications', id: 'certifications' },
-    { label: 'Connect',        id: 'connect'        },
+    { label: 'Connect', id: 'connect' },
   ];
 
   const scrollToSection = (id) => {
@@ -486,12 +486,12 @@ const TechStack = () => {
       name: 'Frontend',
       color: 'from-accent-blue to-accent-cyan',
       skills: [
-        { name: 'HTML5',      icon: FaHtml5,     color: '#E34C26' },
-        { name: 'CSS3',       icon: FaCss3Alt,   color: '#1572B6' },
-        { name: 'JavaScript', icon: FaJs,        color: '#F7DF1E' },
-        { name: 'React',      icon: FaReact,     color: '#61DAFB' },
-        { name: 'Next.js',    icon: SiNextdotjs, color: '#ffffff' },
-        { name: 'Bootstrap',  icon: SiBootstrap, color: '#7952B3' },
+        { name: 'HTML5', icon: FaHtml5, color: '#E34C26' },
+        { name: 'CSS3', icon: FaCss3Alt, color: '#1572B6' },
+        { name: 'JavaScript', icon: FaJs, color: '#F7DF1E' },
+        { name: 'React', icon: FaReact, color: '#61DAFB' },
+        { name: 'Next.js', icon: SiNextdotjs, color: '#ffffff' },
+        { name: 'Bootstrap', icon: SiBootstrap, color: '#7952B3' },
       ],
     },
     {
@@ -499,34 +499,34 @@ const TechStack = () => {
       color: 'from-accent-purple to-accent-blue',
       skills: [
         { name: 'WordPress', icon: SiWordpress, color: '#0073AA' },
-        { name: 'Drupal',    icon: SiDrupal,    color: '#0678BE' },
+        { name: 'Drupal', icon: SiDrupal, color: '#0678BE' },
       ],
     },
     {
       name: 'UI / UX',
       color: 'from-accent-cyan to-accent-purple',
       skills: [
-        { name: 'Figma',          icon: SiFigma,   color: '#F24E1E' },
-        { name: 'Wireframing',    icon: FaDatabase, color: '#3B82F6' },
-        { name: 'Design Systems', icon: FaReact,   color: '#6B7280' },
+        { name: 'Figma', icon: SiFigma, color: '#F24E1E' },
+        { name: 'Wireframing', icon: FaDatabase, color: '#3B82F6' },
+        { name: 'Design Systems', icon: FaReact, color: '#6B7280' },
       ],
     },
     {
       name: 'Databases',
       color: 'from-accent-blue to-accent-cyan',
       skills: [
-        { name: 'MySQL',      icon: SiMysql,      color: '#00758F' },
+        { name: 'MySQL', icon: SiMysql, color: '#00758F' },
         { name: 'PostgreSQL', icon: SiPostgresql, color: '#336791' },
-        { name: 'MongoDB',    icon: SiMongodb,    color: '#13AA52' },
+        { name: 'MongoDB', icon: SiMongodb, color: '#13AA52' },
       ],
     },
     {
       name: 'Dev Tools',
       color: 'from-accent-purple to-accent-blue',
       skills: [
-        { name: 'Git',       icon: FaGitAlt,   color: '#F1502F' },
-        { name: 'GitHub',    icon: FaGithub,   color: '#FFFFFF' },
-        { name: 'CI/CD',     icon: SiGitlab,   color: '#FC6D26' },
+        { name: 'Git', icon: FaGitAlt, color: '#F1502F' },
+        { name: 'GitHub', icon: FaGithub, color: '#FFFFFF' },
+        { name: 'CI/CD', icon: SiGitlab, color: '#FC6D26' },
         { name: 'REST APIs', icon: FaDatabase, color: '#3B82F6' },
       ],
     },
@@ -598,9 +598,9 @@ const TechStack = () => {
 // ═════════════════════════════════════════════
 const Certifications = () => {
   const certifications = [
-    { id: 1, title: 'Azure Fundamentals AZ-900',  icon: '☁️', color: 'from-blue-500 to-cyan-500'   },
-    { id: 2, title: 'Tableau Desktop Specialist',    icon: '📊', color: 'from-orange-500 to-red-500'  },
-    { id: 3, title: 'Generative AI Certification',   icon: '🤖', color: 'from-purple-500 to-pink-500' },
+    { id: 1, title: 'Azure Fundamentals AZ-900', icon: '☁️', color: 'from-blue-500 to-cyan-500' },
+    { id: 2, title: 'Tableau Desktop Specialist', icon: '📊', color: 'from-orange-500 to-red-500' },
+    { id: 3, title: 'Generative AI Certification', icon: '🤖', color: 'from-purple-500 to-pink-500' },
   ];
 
   const containerVariants = {
@@ -661,20 +661,20 @@ const Connect = () => {
   };
 
   const handleSubmit = (e) => {
-  e.preventDefault();
-  emailjs.send(
-    'YOUR_SERVICE_ID',
-    'YOUR_TEMPLATE_ID',
-    formData,
-    'YOUR_PUBLIC_KEY'
-  ).then(() => {
-    setIsSubmitted(true);
-    setTimeout(() => setIsSubmitted(false), 3000);
-    setFormData({ name: '', email: '', message: '' });
-  }).catch((error) => {
-    console.error('Email send failed:', error);
-  });
-};
+    e.preventDefault();
+    emailjs.send(
+      'YOUR_SERVICE_ID',
+      'YOUR_TEMPLATE_ID',
+      formData,
+      'YOUR_PUBLIC_KEY'
+    ).then(() => {
+      setIsSubmitted(true);
+      setTimeout(() => setIsSubmitted(false), 3000);
+      setFormData({ name: '', email: '', message: '' });
+    }).catch((error) => {
+      console.error('Email send failed:', error);
+    });
+  };
 
 
   const containerVariants = {
@@ -847,8 +847,8 @@ function App() {
       <main>
         <Hero />
         <About />
-        <Projects />
         <Experience />
+        <Projects />
         <TechStack />
         <Certifications />
         <Connect />
