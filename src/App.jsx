@@ -255,7 +255,7 @@ const About = () => {
           {/* ✅ UPDATED: Profile photo — small circle */}
           <motion.div variants={itemVariants} className="relative flex justify-center">
             <div className="glow-border rounded-full p-1">
-              <div className="w-56 h-100 rounded-full overflow-hidden">
+              <div className="w-62 h-96 rounded-full overflow-hidden">
                 <img
                   src={profilePhoto}
                   alt="Shravani Chekuri"
