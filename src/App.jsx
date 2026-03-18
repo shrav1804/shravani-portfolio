@@ -226,7 +226,7 @@ const About = () => {
       <motion.div variants={containerVariants} initial="hidden" whileInView="visible" viewport={{ once: true, margin: '-100px' }} className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 xl:px-10">
 
         <motion.div variants={itemVariants} className="text-center mb-16">
-          <h2 className="section-title">About Me</h2>
+          <h2 className="section-title">Intro</h2>
           <div className="w-24 h-1 bg-gradient-to-r from-accent-blue to-accent-cyan mx-auto mt-4" />
         </motion.div>
 
@@ -255,7 +255,7 @@ const About = () => {
           {/* ✅ UPDATED: Profile photo — small circle */}
           <motion.div variants={itemVariants} className="relative flex justify-center">
             <div className="glow-border rounded-full p-1">
-              <div className="w-56 h-56 rounded-full overflow-hidden">
+              <div className="w-56 h-100 rounded-full overflow-hidden">
                 <img
                   src={profilePhoto}
                   alt="Shravani Chekuri"
